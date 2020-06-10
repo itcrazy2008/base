@@ -1,6 +1,6 @@
-package org.itcrazy2008.spi.impl;
+package com.itcrazy2008.spi.impl;
 
-import org.itcrazy2008.spi.SpiInterface;
+import com.itcrazy2008.spi.SpiInterface;
 
 public class SpiPluginImpl implements SpiInterface {
   @Override

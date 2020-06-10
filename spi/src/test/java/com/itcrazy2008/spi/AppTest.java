@@ -1,4 +1,4 @@
-package org.itcrazy2008.spi;
+package com.itcrazy2008.spi;
 
 import static org.junit.Assert.assertTrue;
 

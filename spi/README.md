@@ -29,13 +29,13 @@
 
 3. 然后在resources目录下新建META-INF/services目录
 
-4. 在META-INF/services目录下新建一个与上述接口的全限定名一致的文件 org.itcrazy2008.spi.SpiInterface
+4. 在META-INF/services目录下新建一个与上述接口的全限定名一致的文件 SpiInterface
 
 5. 文件中写入接口的实现类的全限定名,内容如下：
 
    > ```
-   > org.itcrazy2008.spi.impl.SpiPluginImpl
-   > org.itcrazy2008.spi.impl.SpiApmImpl
+   > com.itcrazy2008.spi.impl.SpiPluginImpl
+   > com.itcrazy2008.spi.impl.SpiApmImpl
    > ```
 
 6. 编写测试类 SpiMain
@@ -53,7 +53,7 @@
 
     > 扫描META-INF/services目录中的指定接口名的文件
     >
-    > 读取文件中的内容，并实现化定义的接口实现
+    > 读取文件中的内容，并实例化定义的接口实现
 
 
 
