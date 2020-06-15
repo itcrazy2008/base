@@ -16,7 +16,7 @@
 
 * 运行服务端、客户端即可看到调用成功的信息
 
-* protocol下载地址
+* protobuf下载地址
 
   https://github.com/google/protobuf/releases
 
